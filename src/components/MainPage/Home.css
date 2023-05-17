@@ -1,0 +1,81 @@
+.home {
+  /* background-color: #ababab; */
+  background-image: url("../../../public/images/SlideCard/wallpaperflare.com_wallpaper\ \(3\).jpg");
+  /* filter background darker */
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+}
+
+
+.homeSlide {
+  /* position: relative;
+  margin: 50px 0; */
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+}
+
+.homeSlide h1 {
+  font-size: 45px;
+  line-height: 55px;
+  margin: 50px 0 20px 0;
+
+
+}
+
+.homeSlide p {
+  margin: 20px 0;
+
+}
+
+.homeSlide ul {
+  position: absolute;
+  bottom: 20px;
+}
+
+.homeSlide ul li {
+  /* border: 1px solid salmon; */
+  /* border-radius: 50%; */
+  padding: 10px;
+}
+
+.homeSlide ul li button {
+  background: transparent !important;
+  /* color: transparent !important; */
+}
+
+.homeSlide ul li button::before {
+
+  font-size: 15px !important;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 2px;
+  left: 0;
+  margin: auto;
+  border-radius: 50%;
+
+}
+
+.box.right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slide--left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: whitesmoke;
+
+}
